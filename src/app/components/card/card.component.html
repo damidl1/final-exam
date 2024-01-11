@@ -1,0 +1,14 @@
+<mat-card *ngIf="country" class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title class="card-title">{{country.name.common}}</mat-card-title>
+    <mat-card-subtitle class="card-subtitle">{{country.region}}</mat-card-subtitle>
+  </mat-card-header>
+  <img class="card-image" mat-card-image src="{{country.flags.png}}" alt="">
+  <mat-card-content class="content-container">
+    <mat-card-subtitle class="card-subtitle">{{country.capital}}</mat-card-subtitle>
+    <span>Population: {{country.population}}</span>
+    <mat-card-subtitle class="card-subtitle">{{country.languages}}</mat-card-subtitle>
+   </mat-card-content>
+
+</mat-card>
