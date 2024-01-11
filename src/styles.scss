@@ -3,7 +3,11 @@
 html,
 body {
   height: 100%;
-  background-color: #E5E6E4;
+  overflow: scroll;
+  background-color: #A6A2A2;
+  // background-image: url('assets/wp2491895.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
